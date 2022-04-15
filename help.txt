@@ -1,0 +1,9 @@
+#for create an image use this command :
+sudo docker build -t proxy_dotnet:v1 .
+#for run the container use this command :
+sudo docker run --rm -p 90:90 -p 91:91 --name dotnet proxy_dotnet:v1
+
+name of image can be modify , use -d to detach and recieve termianl
+
+files in the rar file should near the Dockerfile
+
